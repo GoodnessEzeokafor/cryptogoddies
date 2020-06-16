@@ -1,0 +1,218 @@
+{
+  "contractName": "CryptoDoggies",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "age",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"age\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/goodness/Development/NFTs/cryptodoggies/src/contracts/CryptoDoggies.sol\":\"CryptoDoggies\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/goodness/Development/NFTs/cryptodoggies/src/contracts/AccessControl.sol\":{\"keccak256\":\"0x5e492f88753275f410cfc4cdfd2bdabf5833ae55b16a2d70fd892d781660ac30\",\"urls\":[\"bzz-raw://524547115781e9e951c25db339d7f3ff79b658ff8636cc5a228531e54ea11e08\",\"dweb:/ipfs/QmVWJzUBG65ehEWJMj8A5fd8L8VTccriW3tLMh9p87aAiM\"]},\"/home/goodness/Development/NFTs/cryptodoggies/src/contracts/CryptoDoggies.sol\":{\"keccak256\":\"0x9bd03e89d951602c4e3fca01b6c1a1893729dda892301ccb42fa9b9ef067e3ed\",\"urls\":[\"bzz-raw://93abac3918e656dafe47a4a020fc59849addb9b5a14d740231599fb52b637574\",\"dweb:/ipfs/QmePVfYCfZvgsA9AiAj5m8CCiY5tBKcsAuwKsg7PDhvv7m\"]},\"/home/goodness/Development/NFTs/cryptodoggies/src/contracts/SafeMath.sol\":{\"keccak256\":\"0x168d367841e299bbed9ed49b482da04c414e15cc607f9fe65499f1e5c8a97efc\",\"urls\":[\"bzz-raw://9b0efee2e7341feb71430fee22e045628d071bf050a7c630e96e922a185f774c\",\"dweb:/ipfs/QmVRiYbocoBS3TUq2yCeKwNypezyGU8UShaxtvBJowH6St\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060a18061001e6000396000f3fe6080604052348015600f57600080fd5b50600436106045576000357c010000000000000000000000000000000000000000000000000000000090048063262a9dff14604a575b600080fd5b60506066565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a723158208b853f9af544135a05356a1c19c824c6b8692bf8dafb6e1852b3666fce0cd3ff64736f6c63430005110032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b50600436106045576000357c010000000000000000000000000000000000000000000000000000000090048063262a9dff14604a575b600080fd5b60506066565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a723158208b853f9af544135a05356a1c19c824c6b8692bf8dafb6e1852b3666fce0cd3ff64736f6c63430005110032",
+  "sourceMap": "80:223:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;80:223:1;;;;;;;",
+  "deployedSourceMap": "80:223:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;80:223:1;;;;;;;;;;;;;;;;;;;;120:18;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\nimport \"./AccessControl.sol\";\nimport \"./SafeMath.sol\";\n\ncontract CryptoDoggies{\n\n    // uin\n    uint256 public age;\n    // struct Doggy{\n    //     uint age;\n    //     string name;\n    //     string dna;\n    // }   \n\n    // Doggy doggy1 = Doggy({\n    //     age:age\n    // });\n}",
+  "sourcePath": "/home/goodness/Development/NFTs/cryptodoggies/src/contracts/CryptoDoggies.sol",
+  "ast": {
+    "absolutePath": "/home/goodness/Development/NFTs/cryptodoggies/src/contracts/CryptoDoggies.sol",
+    "exportedSymbols": {
+      "CryptoDoggies": [
+        149
+      ]
+    },
+    "id": 150,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 144,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/home/goodness/Development/NFTs/cryptodoggies/src/contracts/AccessControl.sol",
+        "file": "./AccessControl.sol",
+        "id": 145,
+        "nodeType": "ImportDirective",
+        "scope": 150,
+        "sourceUnit": 143,
+        "src": "24:29:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/goodness/Development/NFTs/cryptodoggies/src/contracts/SafeMath.sol",
+        "file": "./SafeMath.sol",
+        "id": 146,
+        "nodeType": "ImportDirective",
+        "scope": 150,
+        "sourceUnit": 1762,
+        "src": "54:24:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 149,
+        "linearizedBaseContracts": [
+          149
+        ],
+        "name": "CryptoDoggies",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 148,
+            "name": "age",
+            "nodeType": "VariableDeclaration",
+            "scope": 149,
+            "src": "120:18:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 147,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "120:7:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 150,
+        "src": "80:223:1"
+      }
+    ],
+    "src": "0:303:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/goodness/Development/NFTs/cryptodoggies/src/contracts/CryptoDoggies.sol",
+    "exportedSymbols": {
+      "CryptoDoggies": [
+        149
+      ]
+    },
+    "id": 150,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 144,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/home/goodness/Development/NFTs/cryptodoggies/src/contracts/AccessControl.sol",
+        "file": "./AccessControl.sol",
+        "id": 145,
+        "nodeType": "ImportDirective",
+        "scope": 150,
+        "sourceUnit": 143,
+        "src": "24:29:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/goodness/Development/NFTs/cryptodoggies/src/contracts/SafeMath.sol",
+        "file": "./SafeMath.sol",
+        "id": 146,
+        "nodeType": "ImportDirective",
+        "scope": 150,
+        "sourceUnit": 1762,
+        "src": "54:24:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 149,
+        "linearizedBaseContracts": [
+          149
+        ],
+        "name": "CryptoDoggies",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 148,
+            "name": "age",
+            "nodeType": "VariableDeclaration",
+            "scope": 149,
+            "src": "120:18:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 147,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "120:7:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 150,
+        "src": "80:223:1"
+      }
+    ],
+    "src": "0:303:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.17+commit.d19bba13.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-06-16T15:49:27.846Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
